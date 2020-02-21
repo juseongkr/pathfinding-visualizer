@@ -1,0 +1,46 @@
+body {
+	color: #DAD6D6;
+	background: #191F20;
+}
+
+#board {
+	padding: 5px;
+	margin: 5px;
+}
+
+#controller {
+	padding: 5px;
+	margin: 5px;
+}
+
+#run {
+	margin: 5px;
+}
+
+#random {
+	margin: 5px;
+}
+
+#reset {
+	margin: 5px;
+}
+
+#clear {
+	margin: 5px;
+}
+
+#type {
+	margin: 5px;
+}
+
+#start {
+	margin: 5px;
+}
+
+#end {
+	margin: 5px;
+}
+
+#wall {
+	margin: 5px;
+}
