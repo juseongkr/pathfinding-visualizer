@@ -130,4 +130,5 @@ Run = () => {
 			break;
 		default:
 	}
+	clearVisit();
 }

@@ -58,8 +58,12 @@ map.cell("each").on("click", function() {
 		case "WALL":
 			if (map.cell(this).get() === 'WALL') {
 				map.cell(this).rid();
+				[x, y] = map.cell(this).where();
+				visit[x][y] = false;
 			} else {
 				map.cell(this).place(cells.wall.clone());
+				[x, y] = map.cell(this).where();
+				visit[x][y] = true;
 			}
 			break;
 		case "START":
